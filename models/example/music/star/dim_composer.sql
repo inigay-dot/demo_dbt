@@ -1,4 +1,4 @@
-{{ config(materialized='table', schema='STAR'), tags=['star'] }}
+{{ config(materialized='table', schema='STAR', tags=['star'])}}
 
 with composer_extracted as (
     select

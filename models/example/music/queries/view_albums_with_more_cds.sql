@@ -3,5 +3,5 @@
 select
     title,
     cd_year
-from {{ ref('create_table_dim_album') }}
+from {{ ref('dim_album') }}
 where cd_year > 1
