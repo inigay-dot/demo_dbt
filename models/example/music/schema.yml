@@ -1,0 +1,29 @@
+version: 2
+sources:
+    - name: Music_Data
+      description: 'gestion des tracks présents sur les supports CD'
+      database: MUSIC
+      schema: RAW
+      tables:
+        - name: ALBUM
+        - name: ARTIST
+        - name: GENRE
+        - name: MEDIA_TYPE
+        - name: PLAYLIST_TRACK
+        - name: PLAYLIST
+        - name: TRACK
+    - name: Music_Star
+      description: 'analyse des tracks présents sur les supports CD'
+      database: MUSIC
+      schema: STAR
+      tables:
+        - name: FACT_TRACK
+        - name: DIM_TRACK
+        - name: BRIDGE_TRACK_COMPOSER
+        - name: DIM_MEDIA_TYPE
+        - name: DIM_ARTIST
+        - name: DIM_ALBUM
+        - name: DIM_GENRE
+        - name: BRIDGE_PLAYLIST_TRACK
+        - name: DIM_PLAYLIST
+        - name: DIM_COMPOSER
