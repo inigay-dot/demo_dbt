@@ -1,0 +1,9 @@
+version: 2
+sources:
+    - name: COVID19_Epidemiological_Data
+      description: 'Ceci est un test.'
+      database: COVID19_EPIDEMIOLOGICAL_DATA
+      schema: PUBLIC
+      tables:
+        - name: DEMOGRAPHICS
+          description: 'Ceci est un test.'
