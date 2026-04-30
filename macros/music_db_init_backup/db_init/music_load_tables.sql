@@ -1,4 +1,4 @@
-{% macro load_tables() %}
+{% macro music_load_tables() %}
 
 -- Load Data
 

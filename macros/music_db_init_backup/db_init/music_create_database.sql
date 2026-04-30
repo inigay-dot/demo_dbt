@@ -1,4 +1,4 @@
-{% macro create_database() %}
+{% macro music_create_database() %}
 
     {% do run_query("
         CREATE OR REPLACE DATABASE MUSIC
